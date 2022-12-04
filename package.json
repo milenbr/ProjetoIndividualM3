@@ -1,5 +1,12 @@
 {
-  "devDependencies": {
-    "webpack": "^5.75.0"
+  "name": "json-server-vercel",
+  "version": "1.0.0",
+  "description": "Deploy JSON Server to Vercel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
   }
 }
